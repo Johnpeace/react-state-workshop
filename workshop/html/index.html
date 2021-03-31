@@ -26,13 +26,13 @@
       <div class="me">
         <img id='my-image' src="./res/programmer.jpeg" alt="ropo" />
         <p class='describe-me'>
-          I'm passionate with new technologies, I choose web development because
+          I'm passionate with new technologies, I choose web development because <br>
           it's a world where everything move so fast, there is always something
           new to learn every day
         </p>
       </div>
     </section>
-    <section id="contact">
+    <section id="about">
       <ol>
         <li>First Name: Ropo</li>
         <li>Last Name: Olatujoye</li>
@@ -49,19 +49,19 @@
     </section>
     <section id="contact">
       <form>
-        <label>Button</label>
-        <input type="button" />
-        <label>Checkbox</label>
-        <input type="checkbox" />
-        <label>Color</label>
-        <input type="color" />
-        <label>Date</label>
-        <input type="date" />
-        <input type="submit" />
+        <label for="FullName">Full Name: </label>
+        <input type="text" name="FullName" />
+        <label for="email">Email: </label>
+        <input type="email" name="email" />
+        <label for="PhoneNumber">Phone Number: </label>
+        <input type="Number" name="PhoneNumber" />
+        <label for="Comment">Comment: </label>
+        <textarea name="Comment" aria-rowspan="5"></textarea>
+        <button type="submit" class="btn">Send</button>
       </form>
     </section>
   </body>
   <footer>
-    <p>Ayodeji, Damilola and Solomon first workshop</p>
+    
   </footer>
 </html>

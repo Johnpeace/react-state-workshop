@@ -42,5 +42,54 @@ body {
 
 .describe-me {
   position: absolute;
-
+  bottom: 0;
+  right: 25%;
+  z-index: 2000;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0,0,0,0.349);
+  padding: 5%;
+  line-height: 20px;
 }
+
+#about {
+  margin: 2% 5%;
+}
+
+ol {
+  list-style: none;
+}
+
+#contact {
+  right: 25%;
+  margin: 20px;
+  padding: 16px;
+  background-color: white;
+}
+
+#contact > input, label {
+  display: inline;
+}
+
+input[type='text'], input[type='email'], textarea, input[type='Number'] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
